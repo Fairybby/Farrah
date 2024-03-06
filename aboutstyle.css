@@ -1,0 +1,183 @@
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+header{
+   
+}
+h1{
+    margin: auto;
+    font-family: "molle-regular-italic", italic;
+    font-size: 98px;
+    color:#2d1d11;
+    text-align: center;
+}
+p{
+    font-family: "karma-regular", serif;
+    font-size: 20px;
+    color: #2d1d11;
+    text-align: auto;
+    margin: auto;
+}
+.highlight-green{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 17vh;
+    background-color: #cbdaa9;
+    font-family: "rakkas-regular", serif;
+  }
+  .nav-links{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
+    gap: 22px;
+}
+  .logo{
+    background-color: #cbdaa9;
+    font-family: "Molle", cursive;
+    font-size: 96px;
+    color: #3c2716;;
+}
+.nav-links a:hover{
+    color: #3c2716;
+}
+.nav-links a{
+    color: #3c2716;
+    text-decoration: none;
+}
+/* Container for the about me section */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Heading styles */
+.about-me h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+.about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+.about-me a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.about-me a:hover {
+    text-decoration: underline;
+}
+.about .section-picture{
+    flex: 1 1 50%;
+}
+.about .techincal-skills{
+    flex: 1 1 50%;
+}
+/* Image styles */
+.section-picture{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-picture, img{
+    width: 150px;
+    height: auto;
+    float: left;
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    margin-right: 5px;;
+}
+/* html button */
+.html{
+    position: relative;
+    width: 50%;
+}
+/* image being responsive */
+.html img{
+    width: 100%;
+    height: auto;
+}
+/* styling buttom and placing it in the middle of the container */
+.html button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #cbdaa9;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+/* styling the button when hovered */
+.html button:hover {
+    background-color: #3c2716;
+    color: white;
+  }
+/* font styles */
+.molle-regular-italic {
+    font-family: "Molle", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+  .rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.karma-light {
+    font-family: "Karma", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .karma-regular {
+    font-family: "Karma", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .karma-medium {
+    font-family: "Karma", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .karma-semibold {
+    font-family: "Karma", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .karma-bold {
+    font-family: "Karma", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 17vh;
+    background-color: #cbdaa9;
+    font-family: "rakkas-regular", serif;
+  }
+  .nav-links{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
+    gap: 22px;
+  }
+.nav-links a:hover{
+    color: #3c2716;
+}
+.nav-links a{
+    color: #3c2716;
+    text-decoration: none;
+}
+  /* end of navigation bar */
+  /* divider */
+.logo{
+    background-color: #cbdaa9;
+    font-family: 'molle-regular-italic', cursive;
+    font-size: 96px;
+    color: #3c2716;;
+}
+.highlight-green{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
+}
+h1{
+    margin: auto;
+    font-family: "molle-regular-italic", italic;
+    font-size: 38px;
+    color:#2d1d11
+}
