@@ -1,5 +1,9 @@
-//fonts being added and sorted
-.karma-light {
+/* Importing fonts into the stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Molle&family=Rakkas&display=swap')
+
+/* end of fonts being imported */
+  .karma-light {
     font-family: "Karma", serif;
     font-weight: 300;
     font-style: normal;
@@ -39,11 +43,95 @@
     font-style: italic;
   }
   
-  //website colors being added
+  /* end of fonts being imported */
+
+  /* Starting general style sheet */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  /* The main behavoir done */
+  /* Navigation Bar */
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 17vh;
+    background-color: #cbdaa9;
+    font-family: "rakkas-regular", serif;
+  }
+  .nav-links{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
+    gap: 22px;
+  }
+  /* end of navigation bar */
+  /* divider */
+  .logo{
+    background-color: #cbdaa9;
+    font-family: 'molle-regular-italic', cursive;
+    font-size: 96px;
+    color: #3c2716;;
+  }
+  .about{
+    font-family: "rakkas-regular", serif;
+    font-size: 20px;
+    margin-bottom: auto;
+  }
+  .about li{
+    list-style: none;
+    font-family: "rakkas-regular", serif;
+    font-style: normal;
+  }
+  .about ul{
+    list-style: none;
+
+  }
+  /* end of divider */
+  title{
+    color: #F5EBE0;
+    font-family: 'molle-regular-italic', cursive;
+    font-size: 144px;
+  }
   body{
     background-color: #F5EBE0;
   }
   header{
     background-color: #cbdaa9;
   }
-  
+  h1{
+    margin: auto;
+    font-family: "molle-regular-italic", italic;
+    font-size: 38px;
+    color:#2d1d11
+  }
+  h2{
+    font-family: 'rakkas-regular', serif;
+  }
+  span{
+    font-family: "rakkas-bold", serif;
+    font-weight: 700px;;
+  }
+  /* Phtoto editing */
+  .section-picture{
+    margin: 2rem;
+  }
+  .section-picture, img{
+    width: 150px;
+    height: auto;
+    float: left;
+  }
+  .background-photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-me-description{
+    margin-top: 40px;
+  }

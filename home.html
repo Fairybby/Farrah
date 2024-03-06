@@ -6,25 +6,54 @@
     <link rel="stylesheet" type="text/css"  href="styles.css">
     <!-- links stylesheet into the website -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Molle&family=Rakkas&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Resume</a>
-            <a href="#">Contact</a>
+        <nav id="Desktop-nav">
+            <div class="logo">Farrah Waller</div>
+            <div>
+                <ul class="nav-links">
+                    <!-- takes to nav menu due to the # -->
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <section id="About Me">
-        <h1>About Me</h1>
-        <h2>Farrah Waller</h2>
-        <p> I am seeking a job in Software Engineering or Project Management. I began coding around August 2022 and started making coding projects and I am currently working on a mobile application.</p>
+    <section id="about">
+        <div class="section-picture">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczPIf_31zjrWjivJp9mfhjNY5szr2WDORF8nZHj_x_aWQQELsflpJFuHkUMsLBhKKdy16pz6fV-E_ratT6FM5h_jIY-9bZBx8Gzm5wbLRVn0Vgo9dcVo=w2400"  alt="Farrah Waller">
+        </div>
+        <ul class ="about">
+            <li>
+                <strong>Name:</strong>
+                <span>Farrah Waller</span>
+            </li>
+            <li>
+                <strong>Pronouns:</strong>
+                <span>She/Her</span>
+            </li>
+            <li>
+                <strong>Hometown:</strong>
+                <span>Houston, Texas</span>
+            </li>
+            <li>
+                <strong>Email:</strong>
+                <span>Farrahwwaller@gmail.com</span>
+            </li>
+        </ul>
+        <section id="about-me-description">
+            <h1>About Me</h1>
+            <h2>Farrah Waller</h2>
+            <p> I am seeking a job in Software Engineering or Project Management. I began coding around August 2022 and started making coding projects and I am currently working on a mobile application.</p>
+        </section>
     </section>
-    <section id="Resume">
+    <section id="Experience">
         <h1>My Experience</h1>
         <!-- Most Recent 1st -->
         <h2>Rustic Pearl Wedding Venue</h2>
@@ -38,8 +67,38 @@
         <h2>Broadway Nails & Lashes</h2>
         <h3>Receptionist | San Antonio,Texas | Febuary 2022 - Present</h3>
         <p>Successfully manage a team of 10+ employees, ensuring efficient operations at the front desk. Provide exceptional customer support, handle phones, and manage appointments. Maintain and organize the inventory of salon equipment.</p>
+
     </section>
-    <!-- Linkedln page button -->
-    <a href='https://www.linkedin.com/in/farrah-waller-046815185/'><button type="button">Linkedln Page</button></a>
+    <section id="Projects">
+        <h1>My Projects</h1>
+        <h2>Mobile Application</h2>
+        <p>Currently working on a mobile application that will help people find the best places to eat in San Antonio, Texas. The application will have a map that will show the user the location of the restaurant and the user will be able to see the menu and the prices of the food.</p>
+        <h2> Personal Website</h2>
+        <p>Created a website for a local business in San Antonio, Texas. The website was created using HTML, CSS, and JavaScript. The website has a contact form and a gallery of the business's work.</p>
+    </section>
+    <section id="Education">
+        <h1>My Education</h1>
+        <h2>Dallas Commuinity College</h2>
+        <h3>Computer Science | Dallas, Texas | August 2022 - Present</h3>
+        <p>Currently enrolled in the Computer Science BS track and minoring in Marketing.</p>
+        <h4>Relevant Coursework:</h4>
+        <p>Programming Fundamentals 1 | Programming Fundamentals 2 </p>
+
+        <h2>San Jacinto Commuinity College</h2>
+        <h3>Houston, Texas | August 2019-2021</h3>
+        <p>Enrolled in Dual Credit courses whilst at North Shore Senior High school.</p>
+
+        <h2>North Shore Senior High School</h2>
+        <h3>High School Diploma | Houston, Texas | August 2017 - May 2021</h3>
+        <p>Graduated with a 3.3 GPA and was a secretary of Class Officers 2020-2021,</p>
+
+    </section>
+    <section id="contact">
+        <img src="https://lh3.googleusercontent.com/pw/AP1GczOCTatJjfdRgQScz0Yf0tgbDdc1AHDQ8p_K7l4JR8jn_VMV5UalTZW3EuNIT_86vjaS0EAM_kJ69QptI5BynPyuejHvHOuE9ErqXYKkrIstnBpBffso=w2400" alt="Flowers from the San Antnoio Japense Tea Garden">
+        <h1>Contact Me:</h1>
+         <!-- Linkedln page button -->
+        <a href='https://www.linkedin.com/in/farrah-waller-046815185/'><button type="button">Let's Talk</button></a>
+    </section>
+   
 </body>
 </html>
