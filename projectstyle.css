@@ -1,3 +1,13 @@
+  /* Starting general style sheet */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /* The main behavoir done */
   /* Navigation Bar */
   nav{
     display: flex;
@@ -29,7 +39,13 @@
     font-size: 24px;
     color: #000;
   }
-    /* end of navigation bar */
+/* end of navigation bar */
+  /* end of divider */
+  title{
+    color: #F5EBE0;
+    font-family: 'molle-regular-italic', cursive;
+    font-size: 144px;
+  }
 .highlight-green{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
 }

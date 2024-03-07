@@ -1,28 +1,13 @@
-/* Reset default styles */
-body {
+  /* Starting general style sheet */
+  *{
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: white;
-}
-header{
-   
-}
-h1{
-    margin: auto;
-    font-family: "molle-regular-italic", italic;
-    font-size: 98px;
-    text-align: center;
-}
-p{
-    font-family: "karma-regular", serif;
-    font-size: 20px;
-    text-align: auto;
-    margin: auto;
-}
-.highlight-green{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
-}
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  /* The main behavoir done */
   /* Navigation Bar */
   nav{
     display: flex;
@@ -54,7 +39,38 @@ p{
     font-size: 24px;
     color: #000;
   }
-    /* end of navigation bar */
+/* end of navigation bar */
+  /* end of divider */
+  title{
+    color: #F5EBE0;
+    font-family: 'molle-regular-italic', cursive;
+    font-size: 144px;
+  }
+/* Reset default styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff
+}
+header{
+   
+}
+h1{
+    margin: auto;
+    font-family: "molle-regular-italic", italic;
+    font-size: 98px;
+    text-align: center;
+}
+p{
+    font-family: "karma-regular", serif;
+    font-size: 20px;
+    text-align: auto;
+    margin: auto;
+}
+.highlight-green{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
+}
+
 .about{
     display: flex;
     flex-wrap: wrap;
