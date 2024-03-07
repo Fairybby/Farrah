@@ -30,6 +30,9 @@
         <section class="about">
             <h2 class="intro"><span class="highlight-green">Introduction</span></h2>
             <section id="about">
+                <div>
+                    
+                </div>
                 <ul class ="about">
                     <li>
                         <strong>Name:</strong>
@@ -61,21 +64,26 @@
         
         <section>
             <h2><span class="highlight-green">Technical Skills</span></h2>
-            <div class="html">
-                <button class="html" onclick="change(this)">HTML
-                <img src="html.png" alt="HTML Logo">
-                </button>
+            <div class="skills">
+                <label for="java">JavaScript:</label>
+                <progress id="java" value="60" max="100">60%</progress>
             </div>
-
-            <script type="text/javascript">
-            function change( el ){
-                if ( el.textContent === "HTML" ){
-                    el.textContent = "Intermidate";
-                }else{
-                 el.textContent = "HTML";
-                }
-            }
-            </script>
+            <div>
+                <label for="html">HTML:</label>
+                <progress id="html" value="80" max="100">80%</progress>
+            </div>
+            <div>
+                <label for="css">CSS:</label>
+                <progress id="css" value="70" max="100">70%</progress>
+            </div>
+            <div>
+                <label for="java">Java:</label>
+                <progress id="java" value="50" max="100">50%</progress>
+            </div>
+            <div>
+                <label for="c++">C++:</label>
+                <progress id="c++" value="40" max="100">40%</progress>
+            </div>
 
         </section>
         

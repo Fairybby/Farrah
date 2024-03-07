@@ -1,8 +1,9 @@
-nav{
+  /* Navigation Bar */
+  nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 17vh;
+    height: auto;
     background-color: #cbdaa9;
     font-family: "rakkas-regular", serif;
   }
@@ -14,21 +15,21 @@ nav{
     width: 40%;
     gap: 22px;
   }
-.nav-links a:hover{
-    color: #3c2716;
-}
-.nav-links a{
-    color: #3c2716;
+  .nav-links a:hover{
+    color: #000;
+  }
+  .nav-links a{
+    color: #000;
     text-decoration: none;
-}
-  /* end of navigation bar */
+  }
   /* divider */
-.logo{
+  .logo{
     background-color: #cbdaa9;
-    font-family: 'molle-regular-italic', cursive;
-    font-size: 96px;
-    color: #3c2716;;
-}
+    font-family: 'rakkas-regular', serif;
+    font-size: 24px;
+    color: #000;
+  }
+    /* end of navigation bar */
 .highlight-green{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
 }

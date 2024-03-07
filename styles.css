@@ -60,7 +60,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 17vh;
+    height: auto;
     background-color: #cbdaa9;
     font-family: "rakkas-regular", serif;
   }
@@ -73,44 +73,20 @@
     gap: 22px;
   }
   .nav-links a:hover{
-    color: #3c2716;
+    color: #000;
   }
   .nav-links a{
-    color: #3c2716;
+    color: #000;
     text-decoration: none;
   }
-  /* end of navigation bar */
   /* divider */
   .logo{
     background-color: #cbdaa9;
-    font-family: 'molle-regular-italic', cursive;
-    font-size: 96px;
-    color: #3c2716;;
+    font-family: 'rakkas-regular', serif;
+    font-size: 24px;
+    color: #000;
   }
-  #about{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 2rem;
-  }
-  .about{
-    font-family: "rakkas-regular", serif;
-    font-size: 25px;
-    margin-bottom: auto;
-    flex: 1;
-    align-items: center;
-    float:right;
-  }
-  .about li{
-    list-style: none;
-    font-family: "rakkas-regular", serif;
-    font-style: normal;
-  }
-  .about ul{
-    list-style: none;
-  }
+/* end of navigation bar */
   /* end of divider */
   title{
     color: #F5EBE0;
@@ -131,6 +107,7 @@
   }
   h2{
     font-family: 'rakkas-regular', serif;
+    font-size: 65px;
   }
   span{
     font-family: "rakkas-bold", serif;
@@ -138,45 +115,83 @@
   }
   p{
     font-family: "karma-regular", serif;
-    font-size: 20px;
-    color: #2d1d11;
-    text-align: auto;
+    font-size: 48px;
+    color: #528051;
+    text-align: center;
 
   }
   /* Phtoto editing */
-  .section-picture{
-    flex: 1;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .section-picture, img{
+.section-picture{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-right: 20px;
+}
+.section-picture, img{
     width: 150px;
     height: auto;
-    float: left;
-    text-align: center;
-    display: block;
     background-color: transparent;
-  }
-  .background-photo{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  /* Experience edits */
-  .experience{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 2rem;
-  }
-  .section-experience{
-    flex: 1;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    position: relative;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  color:#cbdaa9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1{
+  font-size: 80px;
+  font-weight: 600;
+}
+.container h2{
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.container h3{
+  font-size: large;
+  display: flex;
+}
+.container span{
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 2px;
+  float: right;
+}
+.intro p{
+  font-size: 72px;
+  font-weight: 300;
+  margin-top: 20px;
+  text-align: center;
+  position: fixed;
+  display: flex;
+}
+.name{
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* end of general style sheet */
+/* general footer for every page */
+footer{
+  background-color:#000;
+  color: #fff;
+}
+footer h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "rakkas-regular", serif;
+
+}
+footer p{
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  font-family: "karma-regular", serif;
+}

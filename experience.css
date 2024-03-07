@@ -10,11 +10,12 @@ body{
 }
   /* The main behavoir done */
   /* Navigation Bar */
-nav{
+  /* Navigation Bar */
+  nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 17vh;
+    height: auto;
     background-color: #cbdaa9;
     font-family: "rakkas-regular", serif;
   }
@@ -27,27 +28,27 @@ nav{
     gap: 22px;
   }
   .nav-links a:hover{
-    color: #3c2716;
+    color: #000;
   }
   .nav-links a{
-    color: #3c2716;
+    color: #000;
     text-decoration: none;
   }
-  /* end of navigation bar */
   /* divider */
   .logo{
     background-color: #cbdaa9;
-    font-family: 'molle-regular-italic', cursive;
-    font-size: 96px;
-    color: #3c2716;;
+    font-family: 'rakkas-regular', serif;
+    font-size: 24px;
+    color: #000;
   }
+    /* end of navigation bar */
   .highlight-green{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
 }
 h1{
     margin: auto;
     font-family: "molle-regular-italic", italic;
-    font-size: 75px;
+    font-size: 58px;
     color: black;
     text-align: center;
 }
@@ -74,8 +75,8 @@ p{
 }
 h4{
     font-family: "rakkas-regular", italic;
-    font-size: 28px;
-    color:#2d1d11;
+    font-size: 58px;
+    color: #000;;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -85,4 +86,19 @@ h4{
     flex-wrap: wrap;
     gap: 20px;
     margin: 2rem;
+    text-align:center;
+}
+/* education edits */
+.education{
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+.education 
+h5{
+    font-family: "rakkas-regular", italic;
+    font-size: 26px;
+    color:#2d1d11;
+    margin-top: auto;
+    margin-bottom: auto;
 }

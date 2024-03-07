@@ -2,6 +2,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: white;
 }
 header{
    
@@ -10,24 +12,23 @@ h1{
     margin: auto;
     font-family: "molle-regular-italic", italic;
     font-size: 98px;
-    color:#2d1d11;
     text-align: center;
 }
 p{
     font-family: "karma-regular", serif;
     font-size: 20px;
-    color: #2d1d11;
     text-align: auto;
     margin: auto;
 }
 .highlight-green{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
 }
-nav{
+  /* Navigation Bar */
+  nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 17vh;
+    height: auto;
     background-color: #cbdaa9;
     font-family: "rakkas-regular", serif;
   }
@@ -38,21 +39,22 @@ nav{
     list-style: none;
     width: 40%;
     gap: 22px;
-}
+  }
+  .nav-links a:hover{
+    color: #000;
+  }
+  .nav-links a{
+    color: #000;
+    text-decoration: none;
+  }
+  /* divider */
   .logo{
     background-color: #cbdaa9;
-    font-family: "Molle", cursive;
-    font-size: 96px;
-    color: #3c2716;;
-}
-.nav-links a:hover{
-    color: #3c2716;
-}
-.nav-links a{
-    color: #3c2716;
-    text-decoration: none;
-}
-/* Container for the about me section */
+    font-family: 'rakkas-regular', serif;
+    font-size: 24px;
+    color: #000;
+  }
+    /* end of navigation bar */
 .about{
     display: flex;
     flex-wrap: wrap;
@@ -137,7 +139,7 @@ nav{
 }
 /* styling the button when hovered */
 .html button:hover {
-    background-color: #3c2716;
+    background-color: white;
     color: white;
   }
 /* font styles */
