@@ -50,7 +50,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff
+    background-color: #000;
+    color: #F5EBE0;
 }
 header{
    
@@ -74,11 +75,16 @@ p{
 .about{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 .about-me {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px;
+    flex: 1 1 auto;
+    max-width: calc(50% - 20px);
 }
 
 /* Heading styles */
@@ -105,7 +111,8 @@ p{
     text-decoration: underline;
 }
 .about .section-picture{
-    flex: 1 1 50%;
+    flex: 0 0 auto;
+    margin-right: 20px;
 }
 .about .techincal-skills{
     flex: 1 1 50%;
@@ -126,6 +133,31 @@ p{
     display: block;
     background-color: transparent;
     margin-right: 5px;;
+}
+/* Technical Skills section */
+section {
+  margin-bottom: 40px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills div {
+  flex: 1 1 50%; /* Display two columns */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.skills label {
+  display: inline-block;
+  width: 80px; /* Adjust width as needed */
+  font-weight: bold;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.skills progress {
+  width: calc(100% - 90px); /* Adjust width as needed */
 }
 /* html button */
 .html{
