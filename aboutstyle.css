@@ -40,8 +40,17 @@
     color: #000;
   }
 /* end of navigation bar */
-  /* end of divider */
-  title{
+/* end of divider */
+/* start of about specific styles */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+/* end of specific styles */
+title{
     color: #F5EBE0;
     font-family: 'molle-regular-italic', cursive;
     font-size: 144px;
@@ -50,8 +59,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
-    color: #F5EBE0;
+    background-color: white;
+    color: black;
 }
 header{
    
@@ -68,77 +77,12 @@ p{
     text-align: auto;
     margin: auto;
 }
+/* highlight specific styles */
 .highlight-green{
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #cbdaa9 65%);
 }
-
-.about{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-.about-me {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 40px;
-    flex: 1 1 auto;
-    max-width: calc(50% - 20px);
-}
-
-/* Heading styles */
-.about-me h1 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-/* Paragraph styles */
-.about-me p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-/* Link styles */
-.about-me a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.about-me a:hover {
-    text-decoration: underline;
-}
-.about .section-picture{
-    flex: 0 0 auto;
-    margin-right: 20px;
-}
-.about .techincal-skills{
-    flex: 1 1 50%;
-}
-/* Image styles */
-.section-picture{
-    flex: 1;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.section-picture, img{
-    width: 150px;
-    height: auto;
-    float: left;
-    text-align: center;
-    display: block;
-    background-color: transparent;
-    margin-right: 5px;;
-}
-/* Technical Skills section */
-section {
-  margin-bottom: 40px;
-}
-
+/* highlight green specfic code */
+/* Techincal Skills section */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -159,37 +103,7 @@ section {
 .skills progress {
   width: calc(100% - 90px); /* Adjust width as needed */
 }
-/* html button */
-.html{
-    position: relative;
-    width: 50%;
-}
-/* image being responsive */
-.html img{
-    width: 100%;
-    height: auto;
-}
-/* styling buttom and placing it in the middle of the container */
-.html button{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #cbdaa9;
-    color: black;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-/* styling the button when hovered */
-.html button:hover {
-    background-color: white;
-    color: white;
-  }
+/* End of Techincal Skills */
 /* font styles */
 .molle-regular-italic {
     font-family: "Molle", cursive;
@@ -230,4 +144,83 @@ section {
     font-weight: 700;
     font-style: normal;
   }
-  
+
+  /* general footer for every page */
+footer{
+  background-color:#fff;
+  color: #000;
+  box-sizing: border-box;
+}
+footer h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-family: "rakkas-regular", serif;
+
+}
+footer p{
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  font-family: "karma-regular", serif;
+}
+.button {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "rakkas-regular",serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 12px 50px;
+}
+
+.contact{
+  font-size: 22px;
+  font-family: "rakkas-regular", serif;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+  /* End of general footer */
